@@ -43,7 +43,24 @@ Graph
 	Environnement
 		destructible ?
 
+Interface
+	Affichage circuit <- problème si gravité dynamique ?
+		Position actuelle
+		Position concurrents
+		Tracé : image ?
+	Affichage position
+	Affichage munitions
+	Affichage bonus
+	Affichage vitesse
+
 Physique
+	Vitesse de pointe connue ? <- il va falloir trouver un truc pour ça
+	Gravité des chocs ? (modification du son...)
+	Interactions
+		Boost
+		Piège
+		Projectile
+		Concurrent
 	Gravité modifiée
 	Gravité modifiée dynamiquement
 
@@ -54,8 +71,23 @@ Multijoueur
 	Ecran splitté
 	Reseau
 
+Bonus
+	(reprendre ceux d'origine déjà)
 
+Caméra
+	Gestion normale != gravité modifiée ?
+		collision environnement
+		triggers spéciaux ? (tunnel bas, pont qui fout le vertige...)
+		Interaction actions
+			Boost
+			Pièges
+			Projectiles
+			Collisions
+
+================
 Prototype v1.0 :
+================
+
 	1 Joueur
 		Kart non customisable
 	1 arme
