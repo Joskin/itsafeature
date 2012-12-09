@@ -52,6 +52,8 @@ Interface
 	Affichage munitions
 	Affichage bonus
 	Affichage vitesse
+	Menus
+		Main
 
 Physique
 	Vitesse de pointe connue ? <- il va falloir trouver un truc pour ça
@@ -84,6 +86,17 @@ Caméra
 			Projectiles
 			Collisions
 
+Son
+	Musique
+		Menu
+		Ingame
+	Son
+		environnement
+		kart
+		gameplay
+
+
+
 ================
 Prototype v1.0 :
 ================
@@ -106,9 +119,31 @@ Prototype v1.0 :
 		gestion de la distance
 		dénivelés
 		trucs excentriques (pr la grav. mod.)
+	scene de réglage
+		paramètres physiques ajustables en live
+		affichage debug
 	shaders de base
 		retro style (per pixel, filtrage non linéaire de la texture (mais filtrage classique linéaire & anisotrope des mipmaps si possible), forward & deferred)
 		anim (eau)
+	4 menus :
+		menu accueil :
+			start :
+				choix track
+			quit
+			config :
+				fullscreen on/off
+				touches clavier
+				touches pad
+		menu ingame (pause) :
+			restart
+			main menu
+	1 interface
+		distance
+		nb collectibles
+		vitesse
+		circuit
+			position sur circuit
+			image vue top
 
 
 
