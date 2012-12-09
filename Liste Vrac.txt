@@ -1,0 +1,85 @@
+Kart
+	Physique 4 roues
+		2 roues directionnelles
+		2 roues motrices
+	Animations
+		interaction ac paramètres physique
+			amortisseurs
+			destruction ?
+		liste anims génériques
+	Gestion bonus
+		collectibles
+	Gestion projectiles
+		collectibles
+	Interaction environnement
+		Boost
+		Huile
+		Surfaces
+			terre
+			bitume
+			herbe
+			eau (flaque)
+			glace
+			boue
+			neige
+			gravier
+			métal ?
+		Eau (profonde)
+
+Track
+	Mesure tracé / distance
+	Compte tour
+	Delimitation zone de jeu
+
+Graph
+	Kart <- paramètres customisables ?
+		Chassis
+		Roues
+		Volant ?
+		Moteur
+		Arme ?
+	Personnage <- lié au kart ?
+		accessoires ? (chapeau, gants...)
+	Environnement
+		destructible ?
+
+Physique
+	Gravité modifiée
+	Gravité modifiée dynamiquement
+
+IA
+	3 niveaux
+
+Multijoueur
+	Ecran splitté
+	Reseau
+
+
+Prototype v1.0 :
+	1 Joueur
+		Kart non customisable
+	1 arme
+		1 projectile
+		1 mode de tir
+	1 collectible
+		projectile
+	3 surfaces
+		terre
+		herbe
+		eau (flaque)
+	physique
+		gravité modifiable dynamiquement (ptêt v1.1)
+	track
+		1 compte tour
+		gestion de la distance
+		dénivelés
+		trucs excentriques (pr la grav. mod.)
+	shaders de base
+		retro style (per pixel, filtrage non linéaire de la texture (mais filtrage classique linéaire & anisotrope des mipmaps si possible), forward & deferred)
+		anim (eau)
+
+
+
+ (\/)
+(O.o)
+(> <)
